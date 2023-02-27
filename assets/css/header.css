@@ -1,0 +1,78 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.material-symbols-outlined {
+  font-variation-settings: "FILL" 0, "wght" 400, "GRAD" 0, "opsz" 48;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 0.8rem;
+}
+
+.left-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.logo {
+  width: 30px;
+  height: auto;
+  transition: transform 0.2s;
+}
+.logo:hover {
+  /* -ms-transform: scale(0.5); /* IE 9 */
+  /* -webkit-transform: scale(1.5); */
+  transform: scale(1.1);
+}
+.location {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.7rem;
+}
+
+.location select {
+  border: none;
+  outline: none;
+}
+
+.location a {
+  text-decoration: none;
+  color: black;
+  font-weight: bolder;
+  font-size: 0.9rem;
+  border-bottom: 1px solid black;
+}
+
+.location a:hover {
+  color: red;
+  border-color: red;
+}
+
+.right-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.service {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.8rem;
+  text-align: center;
+  font-weight: 400;
+  color: #686b78;
+}
+
+.service:hover {
+  color: red;
+}
