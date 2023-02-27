@@ -25,12 +25,15 @@ body {
   width: 30px;
   height: auto;
   transition: transform 0.2s;
+  display: flex;
+  justify-content: center;
 }
 .logo:hover {
   /* -ms-transform: scale(0.5); /* IE 9 */
   /* -webkit-transform: scale(1.5); */
   transform: scale(1.1);
 }
+
 .location {
   display: flex;
   justify-content: center;
